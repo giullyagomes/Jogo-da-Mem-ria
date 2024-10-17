@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/login.css">
 
   <script defer src="./js/login.js"></script>
-  <link rel="shortcut icon" href="./images/brain.png" type="image/x-icon">
+  <link rel="shortcut icon" href="Imagens/fundoInicial.jpeg" type="image/x-icon"> 
   <title>Memory Game | Login</title>
 </head>
 
@@ -18,14 +18,17 @@
   <form class="login-form">
 
     <div class="login__header">
-      <img src="./images/logo.png" alt="logo">
-      <img src="./images/cerebro.jpg" alt="brain icon">
-      <h1>Memory Game</h1>
+      <!--<img src="./.jpeg" alt="logo">
+      <img src="./images/cerebro.jpg" alt="brain icon"> 
+      <h1>Memory Game</h1>-->
     </div>
 
     <input type="text" placeholder="Name" class="login__input">
-    <button type="submit" class="login__button">Play</button>
-
+    <button onclick="mudarFundo()" type="submit" class="login__button">
+      <img src="../Imagens/botaoJogar.png" alt="Play" class="play-icon">
+    </button>
+    
+    
   </form>
 
 </body>
